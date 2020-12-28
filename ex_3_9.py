@@ -16,6 +16,7 @@ class MyApp(QMainWindow):
         self.initUI()
 
     def initUI(self):
+        ##Qt.DefaultLocaleLongDate 또는 Qt.DefaultLocaleShortDate 등으로 시간의 형식을 설정
         self.statusBar().showMessage(self.date.toString(Qt.DefaultLocaleLongDate))
 
         self.setWindowTitle('Date')
