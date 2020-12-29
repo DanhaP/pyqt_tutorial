@@ -34,11 +34,11 @@ class MyApp(QWidget):
         self.show()
 
         
-    # def activateBtn(self, btn1):
-    #     if btn1.isChecked == 1:
-    #         btn3.setEnabled(True)
+    # def activateBtn(self, state):
+    #     if self.btn1.isChecked == 1:
+    #         self.btn3.setEnabled(True)
     #     else:
-    #         btn3.setEnabled(False)
+    #         self.btn3.setEnabled(False)
 
 
 if __name__ == '__main__':
