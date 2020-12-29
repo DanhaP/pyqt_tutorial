@@ -15,6 +15,7 @@ class MyApp(QWidget):
         btn1 = QPushButton('&Button1', self)
         btn1.setCheckable(True)
         btn1.toggle()
+        # btn1.toggled.connect(self.activateBtn)
 
         btn2 = QPushButton(self)
         btn2.setText('Button&2')
@@ -31,6 +32,13 @@ class MyApp(QWidget):
         self.setWindowTitle('QPushButton')
         self.setGeometry(300, 300, 300, 200)
         self.show()
+
+        
+    # def activateBtn(self, btn1):
+    #     if btn1.isChecked == 1:
+    #         btn3.setEnabled(True)
+    #     else:
+    #         btn3.setEnabled(False)
 
 
 if __name__ == '__main__':
